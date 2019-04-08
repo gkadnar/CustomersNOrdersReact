@@ -18,9 +18,7 @@ class CustomersContainer extends Component {
         fetch(url)
         .then(response => response.json()) 
         .then(responseData => {
-          //this.setState({data : responseData.items }); 
           this.setState({data : responseData }); 
-          console.log("dsfjdosfhj ==> " + responseData.length);
         });  
     }
 
@@ -34,8 +32,8 @@ class CustomersContainer extends Component {
 
     render() {
         const columns = [{
-            Header: 'Name',       // Header of the column
-            accessor: 'Name' // Value accessor
+            Header: 'Name',         // Header of the column
+            accessor: 'Name'        // Value accessor
         }, {
             Header: 'Email',
             accessor: 'Email',
