@@ -1,3 +1,11 @@
-body {
-  background-color: rgb(70, 172, 155);
+body{
+  background-color: rgb(25, 100, 170)
+}
+
+.App {
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
 }
